@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-section {
+    text-align: center;
+    background-color: #f9fafb;
+    padding-block:30px ; 
+}
+
+.card {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+.card .img-box img{
+    width: 100%;
+    object-fit: cover;  
+    transition: all 0.2s;
+}
+.img-box{
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 16px;  
+    border-top-right-radius: 16px;  
+
+}
+.menu-label {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #dc2626;
+}
+
+.menu-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #111827;
+    font-family: 'playfair Display serif';
+}
+
+.menu-description {
+    color: #4b5563;
+    font-size: 18px;
+}
+
+.card {
+    text-align: left;
+}
+
+.title-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-price h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+    font-family: 'playfair Display serif';
+}
+
+.title-price span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #dc2626;
+}
+.card-content{
+    padding: 20px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #4b5563;
+}
+
+.card-badge{
+    font-size: 12px;
+    background-color: #dc2626;
+    color: white;
+    font-weight: 500;
+    padding: 6px 13px;
+    border-radius: 20px;
+    position: absolute;
+    top:16px;
+    right: 16px;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
